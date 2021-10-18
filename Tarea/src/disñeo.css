@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:monospace,sans-serif;
+
+}
+.img{
+    width:50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.agenda{
+    background-color:rgb(0, 0, 0);
+    padding-top: 10px;
+    box-sizing: border-box;
+    left: 0;
+    width: 200px;
+    height: 100%;
+}
+.contacto1{
+    margin-left: 10px;
+    height: 60px;
+    position: relative;
+    
+}
+.contacto2{
+    margin-left: 10px;
+    height: 60px;
+    position: relative;
+}
+.contacto3{
+    margin-left: 10px;
+    height: 60px;
+    position: relative;
+}
+.contacto4{
+    margin-left: 10px;
+    height: 60px;
+    position: relative;
+}
+.cargo{
+    margin-left: 40px;
+    color: khaki;
+ }
+.i{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 75%;
+    height: 100%;
+    padding: 10px
+}
+ 
+.nombre{    
+    margin-bottom: 3px;
+    color: #fff;
+    margin-left: 40px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+    
+}
